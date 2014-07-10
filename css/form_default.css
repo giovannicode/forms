@@ -1,0 +1,103 @@
+form
+{
+float: left;
+width: 530px;
+margin-left: 200px;
+
+padding-bottom: 30px;
+
+background-color: hsl(0, 0%, 97%);
+box-shadow: 1px 1px 10px hsl(0, 0%, 30%);
+border-radius: 10px;
+
+font-family: "Proxima Nova", "Proxima Nova Alt", sans-serif;
+}
+
+form header
+{
+  float: left;
+  box-sizing: border-box;
+  background-color: hsl(183, 100%, 42%);
+  background-color: hsl(172, 70%, 45%);
+  width: inherit;
+  height: 50px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 30px;
+
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+form div
+{
+  box-sizing: border-box;
+  width: inherit;
+  height: 40px;
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+  background-color: inherit;
+}
+
+
+form div label
+{
+  float: left;
+  box-sizing: border-box;
+  height: 40px;
+  padding-top: 8px;
+
+  color: hsl(0, 0%, 50%);
+  font-size: 110%;
+  font-weight: bold;
+  background-color: inherit;
+}
+
+form div input[type=text]
+{
+  float: right;
+  height: 35px;
+  width: 300px;
+
+  border: 1px inset hsla(210, 100%, 40%, 0.5);
+  box-shadow: inset 0px 0px 1px hsl(210, 100%, 40%);
+  background-color: inherit;
+  
+  
+  border-radius: 5px;
+  font-size: 120%; 
+  color: hsl(0, 0%, 50%);
+  
+}
+
+form div input[type=text]:focus
+{
+  border: 2px solid hsl(173, 100%, 30%);
+  box-shadow: 1px 1px 2px hsl(173, 50%, 45%);
+}
+
+form div input[type=submit]
+{
+  float:  left;
+  background-color: hsl(110, 100%, 40%);
+  border: none;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px hsl(0, 0%, 30%);
+  
+  font-size: 120%;
+  margin-top: 15px;
+  color: white;
+  /*background: linear-gradient(#FF2000 2%, #EA050B 10%, #D40D04) repeat scroll 0% 0% #EA050B;*/
+}
+
+form div input[type=submit]:active
+{
+  box-shadow: inset -1px -1px 0px hsl(0, 0%, 30%);
+}
