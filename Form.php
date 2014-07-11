@@ -1,10 +1,10 @@
 <?php
-include(FORM_CODE . 'InputHolder.php');
-include(FORM_CODE . 'LabelCombobox.php');
-include(FORM_CODE . 'LabelFilebox.php');
-include(FORM_CODE . 'LabelTextbox.php');
-include(FORM_CODE . 'LabelTextarea.php');
-include(FORM_CODE . 'HiddenInput.php');
+include(FORMS . 'inputs/InputHolder.php');
+include(FORMS . 'inputs/LabelCombobox.php');
+include(FORMS . 'inputs/LabelFilebox.php');
+include(FORMS . 'inputs/LabelTextbox.php');
+include(FORMS . 'inputs/LabelTextarea.php');
+include(FORMS . 'inputs/HiddenInput.php');
 
 class Form
 {
